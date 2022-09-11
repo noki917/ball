@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ball">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tama"
+        android:label="TENKYU-転球"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GameOver3Activity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".GameOver2Activity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Main3Activity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".RuleActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StartActivity"
+            android:label="TENKYU-転球"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameOverActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Main4Activity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

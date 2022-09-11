@@ -1,0 +1,4 @@
+public final static int PATH_TILE = 0;
+public final static int WALL_TILE = 1;
+public final static int EXIT_TILE = 2;
+public final static int VOID_TILE = 3; 
